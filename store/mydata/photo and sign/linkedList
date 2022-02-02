@@ -1,0 +1,79 @@
+import java.util.*; 
+
+public class Test { 
+
+	public static void main(String args[]) 
+	{ 
+		// Creating object of the 
+		// class linked list 
+		LinkedList<String> ll 
+			= new LinkedList<String>(); 
+
+		// Adding elements to the linked list 
+		ll.add("A"); 
+		ll.add("B"); 
+		ll.addLast("C"); 
+		ll.addFirst("D"); 
+		ll.add(2, "E"); 
+
+		System.out.println(ll); 
+
+		ll.remove("B"); 
+		ll.remove(3); 
+		ll.removeFirst(); 
+		ll.removeLast(); 
+
+		System.out.println(ll); 
+	} 
+} 
+
+
+/////////////////////////////
+
+
+// Java program to add elements 
+// to a LinkedList 
+	
+import java.util.*; 
+	
+public class GFG { 
+	
+	public static void main(String args[]) 
+	{ 
+		LinkedList<String> ll = new LinkedList<>(); 
+	
+		ll.add("Geeks"); 
+		ll.add("Geeks"); 
+		ll.add(1, "For"); 
+	
+		System.out.println(ll); 
+	} 
+} 
+
+
+////////////////////////////////
+
+
+// Java program to change elements 
+// in a LinkedList 
+	
+import java.util.*; 
+	
+public class GFG { 
+	
+	public static void main(String args[]) 
+	{ 
+		LinkedList<String> ll = new LinkedList<>(); 
+	
+		ll.add("Geeks"); 
+		ll.add("Geeks"); 
+		ll.add(1, "Geeks"); 
+	
+		System.out.println("Initial LinkedList " + ll); 
+	
+		ll.set(1, "For"); 
+	
+		System.out.println("Updated LinkedList " + ll); 
+	} 
+} 
+

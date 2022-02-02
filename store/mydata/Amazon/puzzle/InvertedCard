@@ -1,0 +1,25 @@
+Q:
+
+One fine day, Mr. Puzzle and Mr. Fry were playing cards, but suddenly power went off and they were getting bored. So Mr. Puzzle randomly inverted position of 15 cards out of 52 cards(and shuffled it) and asked Mr. Fry to divide the card in two pile with equal number of inverted cards(number of cards in each pile need not be equal).
+
+It was very dark in the room and Mr. Fry could not see the cards, after thinking a bit Mr. Fry divided the cards in two piles and quite surprisingly on counting number of inverted cards in both the piles were equal.
+
+What do you think Mr. Fry must have done?
+
+Ans:
+
+
+
+Just take top 15 cards from the pile and reverse them,
+now you will have two piles of 15 cards and 37 cards and both of them will have same number of inverted cards.
+
+
+Inverted Playing card puzzle explanation:
+
+Lets say there were n inverted cards initially in top 15 cards,
+obviously
+In remaining 37 cards number of inverted cards will be 15-n, as total 15 inverted cards.
+
+Now on reversing the 15 cards number of inverted cards would become 15 – n and number of inverted cards will become same in the two piles.
+
+

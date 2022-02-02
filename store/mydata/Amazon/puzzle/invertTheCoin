@@ -1,0 +1,6 @@
+Q:
+A man sits blindfolded at a table with 20 coins laid out in front of him. He does not know the layout of the coins, only that ten are heads and ten are tails. He has a pair of gloves on and while he can feel where the coins are, he can't feel whether they are heads or tails. His task is to create two groups of coins, each having the same number of heads and tails. He may only move or flip coins. How can he accomplish this (while remaining blindfolded)? 
+
+Ans:
+
+By creating two groups of ten coins, then flipping over the coins in one of the groups.

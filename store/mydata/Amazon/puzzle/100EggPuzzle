@@ -1,0 +1,39 @@
+Q1:
+There is a building of 100 floors
+-If an egg drops from the Nth floor or above it will break.
+-If it’s dropped from any floor below, it will not break.
+You’re given 2 eggs.
+Find N
+
+Ans:
+
+
+
+Answer is 14:
+In worst case it will take 14 egg drops to find the value of N.
+
+This follows the below logic.
+Say, the egg breaks at floor n we try to find out by going (N-1) till the first floor by doing linear search.
+Say for example, I throw the egg from 10th floor, and it breaks, I wíll go to floor 1 to 9 to find out the floor..
+Then I would try the same logic for every 10 floors thereby setting a worst case scenario of 19 chances.. I.e. 10,20,30,40,50,60,70,80,90,100,91,92,93,94,95,96,97,98,99
+
+To find optimum solution, let’s try this:
+If for every n, egg doesnt break, instead of going to next n, go to N-1, this would save us one drop as we are doing a linear search with second egg when egg1 breaks…
+So the series would look something like this..
+N + (N-1) + (N-2) + (N-3) +…+ 1
+
+Now this is a series which is equal to N(N+1)/2
+
+Now since it is given that the egg may or may not break from 100th floor..
+
+We can write it as..
+
+N(N+1)/2>=100
+And n=14(approx)
+
+So we should start from 14 then move up N-1 to 13 floor I.e. 27,39…
+
+So the floors from where the drop needs to be done are: 14,27,39,50,60,69,77,84,90,95,99,100
+
+So the answer is 14
+

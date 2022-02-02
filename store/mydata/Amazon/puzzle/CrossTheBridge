@@ -1,0 +1,21 @@
+Q
+
+Four people need to cross a rickety bridge at night. Unfortunately, they have only one torch and the bridge is too dangerous to cross without one. The bridge is only strong enough to support two people at a time. Not all people take the same time to cross the bridge. Times for each person: 1 min, 2 mins, 7 mins and 10 mins. What is the shortest time needed for all four of them to cross the bridge?
+
+
+Ans:
+
+
+
+First Assume that A takes 1 min., B takes 2 min, C takes 5 min and D takes 10 min.
+
+First A & B cross the bridge and they took 2 min
+A(with torch) returned and he took 1 min.
+C & D cross the bridge and they took 10 min.
+B(with torch) returned and he took 2 min.
+A & B cross the bridge they took 2 min.
+
+Therefore, The shortest time is 17 min.
+
+
+

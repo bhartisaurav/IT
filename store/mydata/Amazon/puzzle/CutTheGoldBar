@@ -1,0 +1,23 @@
+Q:
+
+You’ve got someone working for you for seven days and a gold bar to pay him. The gold bar is segmented into seven connected pieces.
+
+You must give them a piece of gold at the end of every day.
+
+What and where are the fewest number of cuts to the bar of gold that will allow you to pay him 1/7th each day?
+
+
+Ans:
+
+
+The fewest number of cuts will be 2.
+
+If we cut it into 3 part where the parts are 1, 2 and 4 segments long.
+Day 1 – Give 1 segment bar
+Day 2 – Give 2 segment bar ask for 1 segment bar back
+Day 3 – Give 1 segment bar
+Day 4 – Give 4 segment bar ask for 1 + 2 back
+Day 5 – Give 1 segment bar
+Day 6 – Give 2 segment bar ask for 1 segment bar back
+Day 7 – Give 1 segment bar
+

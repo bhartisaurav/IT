@@ -1,0 +1,20 @@
+Q
+Five  puzzleFry ship’s pirates have obtained 100 gold coins and have to divide up the loot. The pirates are all extremely intelligent, treacherous and selfish (especially the captain).
+
+The captain always proposes a distribution of the loot. All pirates vote on the proposal, and if half the crew or more go “Aye”, the loot is divided as proposed, as no pirate would be willing to take on the captain without superior force on their side.
+
+If the captain fails to obtain support of at least half his crew (which includes himself), he faces a mutiny, and all pirates will turn against him and make him walk the plank. The pirates start over again with the next senior pirate as captain.
+
+What is the maximum number of coins the captain can keep without risking his life?
+
+Ans:
+
+The captain says he will take 98 coins, and will give one coin to the third most senior pirate and another coin to the most junior pirate. He then explains his decision in a manner like this…
+
+If there were 2 pirates, pirate 2 being the most senior, he would just vote for himself and that would be 50% of the vote, so he’s obviously going to keep all the money for himself.
+
+If there were 3 pirates, pirate 3 has to convince at least one other person to join in his plan. Pirate 3 would take 99 gold coins and give 1 coin to pirate 1. Pirate 1 knows if he does not vote for pirate 3, then he gets nothing, so obviously is going to vote for this plan.
+
+If there were 4 pirates, pirate 4 would give 1 coin to pirate 2, and pirate 2 knows if he does not vote for pirate 4, then he gets nothing, so obviously is going to vote for this plan.
+
+As there are 5 pirates, pirates 1 & 3 had obviously better vote for the captain, or they face choosing nothing or risking death.

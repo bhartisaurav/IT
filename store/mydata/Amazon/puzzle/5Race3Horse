@@ -1,0 +1,36 @@
+Q:
+Mr John have 25 horses, and he want to pick the fastest 3 horses out of those 25. He has only 5 track that means only 5 horse can run at a time,even he don’t have a stop watch . What is the minimum number of races required to find the 3 fastest horses?
+
+
+
+Ans: 7 races
+
+We will have 5 races with all 25 horses
+Let the results be
+a1,a2,a3,a4,a5
+b1,b2,b3,b4,b5
+c1,c2,c3,c4,c5
+d1,d2,d3,d4,d5
+e1,e2,e3,e4,e5
+
+Where a1 faster than a2 , a2 faster than a3 etc and We need to consider only the following set of horses
+a1,a2,a3,
+b1,b2,b3,
+c1,c2,c3,
+d1,d2,d3,
+e1,e2,e3,
+
+Race 6
+We race a1,b1,c1,d1 and e1
+Let speed(a1)>speed(b1)>speed(c1)>speed(d1)>speed(e1)
+
+We get a1 as the fastest horse, We can ignore d1,d2,d3,e1,e2 and e3
+
+a2,a3,
+b1,b2,b3,
+c1,c2,c3,
+
+Race 7
+
+Race a2,a3,b1,b2 and c1
+The first and second will be second and third of the whole set
